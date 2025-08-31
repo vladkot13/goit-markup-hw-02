@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif,; 
+    font-family: "Roboto", "Raleway", sans-serif,; 
     color:#434455;
     background-color:#FFFFFF ;
 }
@@ -8,8 +8,8 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif,;
+.header .navigation .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -18,11 +18,12 @@ body {
     color: #4d5ae5;
 }
 .logo-variation {
+    font-family: "Raleway", sans-serif;
     color: #2e2f42;
 }
 
 .logo-footer {
-    font-family: "Raleway", sans-serif,  
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -32,16 +33,17 @@ body {
 }
 
 .logo-footer-variation {
+    font-family: "Raleway", sans-serif;
     color:  #f4f4fd ;
 }
 
 address {
     font-style: normal;
 }
-address:hover {
+.contacts-menu-item:hover {
     color: #404bbf; 
 }
-address:active {
+.contacts-menu-item:focus {
     color: #404bbf; 
 }
 
@@ -53,10 +55,10 @@ address:active {
     color: #434455;
 }
 
-.header-menu:hover  { 
+.header-menu-item:hover  { 
    color:  #404bbf; 
 }
-.header-menu:active {
+.header-menu-item:focus {
     color: #404bbf; 
 }
 
@@ -83,7 +85,7 @@ address:active {
 }
 
 .hero-button {
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
@@ -91,11 +93,10 @@ address:active {
     cursor: pointer;
     color: #ffffff;
 }
-.hero-button:hover {
-        color: #404bbf; 
-}
-.hero-button:active {
-        color: #404bbf; 
+.hero-button:hover,
+.hero-button:focus 
+{
+    background-color: #404bbf; 
 }
 
 .hero-button-text {
@@ -138,8 +139,9 @@ address:active {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .employees-multiple {
