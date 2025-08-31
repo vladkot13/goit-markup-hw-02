@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, sans-serif,; 
+    font-family: "Roboto", sans-serif,; 
     color:#434455;
     background-color:#FFFFFF ;
 }
@@ -16,33 +16,35 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    .logo-variation {
-    color: #2e2f42;
 }
+.logo-variation {
+    color: #2e2f42;
 }
 
 .logo-footer {
-    font-family: "Raleway", sans-serif,; 
+    font-family: "Raleway", sans-serif,  
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    .logo-footer-variation {
-    color: #f4f4fd ;
 }
+
+.logo-footer-variation {
+    color:  #f4f4fd ;
 }
 
 address {
     font-style: normal;
-     :hover {
-        color: #404bbf; 
 }
-    :active {
-        color: #404bbf; 
+address:hover {
+    color: #404bbf; 
 }
+address:active {
+    color: #404bbf; 
 }
+
 .contacts-menu-item {
     font-weight: 400;
     font-size: 16px;
@@ -51,14 +53,13 @@ address {
     color: #434455;
 }
 
-.header-menu { 
-    :hover {
-        color: #404bbf; 
+.header-menu:hover  { 
+   color:  #404bbf; 
 }
-      :active {
-        color: #404bbf; 
+.header-menu:active {
+    color: #404bbf; 
 }
-}
+
 
 .header-menu-item {
     font-weight: 500;
@@ -75,27 +76,26 @@ address {
 .hero  {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 
-.button {
-    background-color:  #4d5ae5;
+.hero-button {
+    background-color: #4D5AE5
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #ffffff;
-       :hover {
+}
+.hero-button:hover {
         color: #404bbf; 
 }
-      :active {
+.hero-button:active {
         color: #404bbf; 
-}
-
 }
 
 .hero-button-text {
@@ -171,13 +171,13 @@ address {
 }
 
 .portfolio-header {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize
-    color: #2e2f42;
 }
 
 .portfolio-list {
@@ -211,33 +211,4 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-
-/*
-    button {
-    background-color:  #4d5ae5;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    border: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
